@@ -1,0 +1,178 @@
+/* 
+.nav-link {
+   
+    position: relative;
+    margin-left: 20px;
+    color: #0d1730;
+    font-weight: bold;
+}
+.nav-link::after {
+    transition: all 0.2s;
+    opacity: 0;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #c40040;
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.nav-link:hover {
+    text-decoration: underline;
+    border-bottom: 2px solid #c40040;
+    color: #0d1730;
+}
+.nav-link:hover::after {
+ 
+    opacity: 1;
+} */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav-link {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #0d1730; /* Adjust the text color */
+}
+
+.nav-link::after {
+  content: "";
+  display: block;
+  width: 0; /* Initially, set the width to 0 (hidden) */
+  height: 2px; /* Adjust the thickness of the underline */
+  background-color: #c40040; /* Adjust the color of the underline */
+  position: absolute;
+  bottom: -4px; /* Adjust the distance between text and underline */
+  left: 0;
+  transition: width 0.3s ease-out; /* Add a transition for a smooth effect */
+}
+
+.nav-link:hover::after {
+  width: 100%; /* Expand the underline on hover */
+}
+.logo {
+  margin-left: 14px;
+}
+.logos {
+  margin-left: 6px;
+  font-weight: bold;
+  color: #c40040 !important;
+}
+.logos:hover {
+  color: #c40040;
+}
+.navbar-nav {
+  margin-left: 1px;
+}
+.nav-link .active {
+  color: #0d1730;
+  background-color: #c40040;
+}
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+}
+
+/* /////////// home /////// */
+.home__title {
+  font-weight: bold;
+  margin-top: 150px;
+  font-size: 49px;
+}
+.home__title-color {
+  color: #c40040;
+}
+.dynamic-txt {
+  list-style: none;
+  margin-left: -32px;
+}
+/*BUTTONS*/
+.button {
+  display: inline-block;
+  background-color: #c40040;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.75rem 2.5rem;
+  /* font-weight: 1px !important; */
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+.button:hover {
+  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+  background-color: #000;
+  color: #c40040;
+}
+.home__social {
+  display: flex;
+  flex-direction: row;
+}
+.home__social-icon {
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  font-size: 1.5rem;
+  color: #0d1730;
+  margin-top: 20px;
+  padding: 9px;
+}
+.home__social-icon:hover {
+  color: #c40040;
+}
+.home__img {
+  right: 20px;
+  bottom: 0px;
+  width: 400px;
+  margin-top: 130px;
+}
+.home__blob {
+  fill: #cdcdcd;
+}
+.home__blob-img {
+  width: 406px;
+  left: 45%;
+}
+
+/* //////////////////about/////////////////// */
+.about__container {
+  row-gap: 2rem;
+
+  margin-top: 90px;
+}
+.about__img {
+  justify-self: center;
+  margin-top: 70px;
+}
+.about__img img {
+  width: 400px !important;
+  border-radius: 0.5rem;
+}
+.section-title {
+  position: relative;
+  display: inline-block;
+  color: #c40040; /* Text color */
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  height: 2px; /* Initial thickness of the underline */
+  width: 0; /* Initial width of the underline */
+  background-color: #c40040; /* Underline color */
+  position: absolute;
+  bottom: -4px; /* Adjust the distance between text and underline */
+  left: 0;
+  transition: width 0.3s ease-out; /* Add a transition for a smooth effect */
+}
+.banto{
+    text-align: center !important;
+}
+.about__subtitle{
+    font-weight: bold;
+    margin-top: 132px;
+}
