@@ -281,12 +281,13 @@
     font-weight: bold;
 }
   .about__text {
-    wwight: 100%;
+    weight: 100%;
   
 }
   }
   .skills__text {
     margin-bottom: 1px;
     margin-left: auto;
+    weight: auto;
 }
 }
