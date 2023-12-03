@@ -272,4 +272,12 @@
     margin: 10px;
     margin-left: 64px;
 }
+  .section-title {
+    margin-left: 40px;
+    position: relative;
+    display: inline-block;
+    color: #c40040;
+    text-decoration: underline;
+    font-weight: bold;
+}
 }
