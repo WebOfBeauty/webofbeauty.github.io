@@ -306,8 +306,79 @@
       </div>
     </div>
 
-  
 
+        <!-- //////////////////////////////contact////////////////// -->
+    <div class="container about__container" style="justify-content: center;" id="contact">
+      <div class="banto">
+        <h2 class="section-title">Contact</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-12 offset-1 offset-lg-0">
+          <div class="container mt-5">
+            <h1><span style="color: #c40040;">LET’S</span> Talk About Ideas</h1>
+            <form action="#" id="whatsapp-form" method="post">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" class="form-control" id="city" name="city" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <textarea class="form-control" id="address" name="address" rows="2" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn" style="margin-top: 18px; width: 435px;">Submit</button>
+            </form>
+        </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-12 offset-1 offset-lg-0">
+          <div>
+            <img src="assets/img/contact.jpg" alt="" style="margin-left: 55px;  border-radius: 0.5rem;
+            width: 358px;
+            margin-top: 55px;
+            margin-top: 145px !important;" class="contact__img" />
+          </div>
+        </div>
+      </div>
+    </div>
+  
+<script>
+      document.addEventListener('DOMContentLoaded', function () {
+          document.getElementById('whatsapp-form').addEventListener('submit', function (event) {
+              event.preventDefault(); // Prevent the default form submission
+  
+              // Get form data
+              var name = document.getElementById('name').value;
+              var email = document.getElementById('email').value;
+              var city = document.getElementById('city').value;
+              var address = document.getElementById('address').value;
+              var message = document.getElementById('message').value;
+  
+              // Construct WhatsApp message
+              var whatsappMessage = "Name: " + name + "\nEmail: " + email + "\nCity: " + city +
+                  "\nAddress: " + address + "\nMessage: " + message;
+  
+              // Replace with your WhatsApp number
+              var whatsappNumber = "923279510316";
+  
+              // Create WhatsApp link
+              var whatsappLink = "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(whatsappMessage);
+  
+              // Open WhatsApp link in a new tab
+              window.open(whatsappLink, '_blank');
+          });
+      });
+  </script>
     <script>
       // Function to change the dynamic text
       function changeDynamicText() {
