@@ -247,4 +247,12 @@
 .dynamic-txt {
   color: #000;
 }
+
+  .home__img {
+  right: 20px;
+  bottom: 0px;
+  width: 400px;
+  margin-left: -18px;
+  margin-top: 46px;
+}
 }
