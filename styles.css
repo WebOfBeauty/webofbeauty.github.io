@@ -302,6 +302,6 @@
  @media only screen and (max-width: 768px) {
     .home__social1 {
       text-align: center; /* Center the social icons for mobile */
-      width: 139%;
+      width: 139px;
     }
   }
