@@ -285,6 +285,7 @@
   .card {
     margin: 10px;
     margin-left: 64px;
+     justify-content: center;
 }
   .section-title {
     margin-left: 60px;
@@ -306,7 +307,7 @@
   margin-left: -11px;
 }
 .cd {
-  width: 400px;
+ 
 }
 
   
