@@ -276,10 +276,10 @@
     justify-content: center;
     margin-left: auto;
 }
-  .about__img img {
+  .about__img {
     width: 400px !important;
     border-radius: 0.5rem;
-       margin-left: 125px;
+       margin-left: -40px;
 }
 
   .card {
