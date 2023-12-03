@@ -294,7 +294,9 @@
     text-decoration: underline;
     font-weight: bold;
 }
-
+.skills__img {
+  margin-left: -5px;
+}
 
 
 }
