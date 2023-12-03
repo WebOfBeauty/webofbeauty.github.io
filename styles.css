@@ -284,4 +284,9 @@
     wwight: 100%;
   
 }
+  }
+  .skills__text {
+    margin-bottom: 1px;
+    margin-left: auto;
+}
 }
