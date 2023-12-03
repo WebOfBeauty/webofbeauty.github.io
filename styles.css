@@ -299,3 +299,17 @@
 
 }
 
+   @media only screen and (max-width: 768px) {
+        .col-lg-6 {
+            width: 100%; /* Make the column take up the full width on mobile */
+        }
+
+        .container {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .btn {
+            width: 100%; /* Make the button take up the full width on mobile */
+        }
+    }
