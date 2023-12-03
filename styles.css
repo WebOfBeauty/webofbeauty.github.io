@@ -90,6 +90,7 @@
 .dynamic-txt {
   list-style: none;
   margin-left: -32px;
+   color: #ooo;
 }
 /*BUTTONS*/
 .button {
@@ -266,4 +267,13 @@
 }
 .Profesional-Skills {
   margin-left: 35px;
+}
+
+@media only screen and (max-width: 767px) {
+.hind {
+  display: none;
+}
+.dynamic-txt {
+  color: #000;
+}
 }
