@@ -1,32 +1,4 @@
-/* 
-.nav-link {
-   
-    position: relative;
-    margin-left: 20px;
-    color: #0d1730;
-    font-weight: bold;
-}
-.nav-link::after {
-    transition: all 0.2s;
-    opacity: 0;
-    content: '';
-    height: 2px;
-    width: 100%;
-    background-color: #c40040;
-    
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-.nav-link:hover {
-    text-decoration: underline;
-    border-bottom: 2px solid #c40040;
-    color: #0d1730;
-}
-.nav-link:hover::after {
- 
-    opacity: 1;
-} */
+
 .sticky {
   position: fixed;
   top: 0;
