@@ -281,6 +281,6 @@
     font-weight: bold;
 }
   .about__text {
-    wwight: auto;
-    font-size: auto;
+    wwight: 100%;
+  
 }
