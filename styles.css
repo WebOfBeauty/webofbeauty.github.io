@@ -268,4 +268,8 @@
   .Profesional-Skills {
     margin-left: 8px;
 }
+  .card {
+    margin: 10px;
+    margin-left: 64px;
+}
 }
